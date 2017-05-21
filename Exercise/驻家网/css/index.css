@@ -1,0 +1,59 @@
+body{
+    background: url(../img/index_bg.jpg) center top/cover no-repeat;
+}
+.header{
+    background-color: rgba(0,0,0,0.4);
+}
+.logo{
+    padding: 10px 0;
+}
+.nav{
+    margin-left: 15px;
+}
+.nav ul li{
+    float: left;
+
+}
+.nav ul li a{
+    display: inline-block;
+    color: rgba(255,255,255,0.7);
+    margin-top: 36px;
+    margin-left: 5px;
+    height: 40px;
+    line-height:40px;
+    font-size: 1.6em;
+    width: 100px;
+    text-align: center;
+    border: solid 2px rgba(255,255,255,0);
+}
+.nav ul li a:hover{
+    animation-name: identifier;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes identifier{
+    0%{
+        border-radius: 0;
+        border: solid 2px rgba(255,255,255,0);
+    }
+    100%{
+        border-radius: 20px;
+        border: solid 2px rgba(255,255,255,1);
+    }
+}
+
+.sign{
+    color: rgba(255,255,255,0.6);
+    margin-top: 20px;
+}
+.sign a{
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.6);
+    margin: 0 10px;
+}
+.sign a:hover{
+    text-decoration: underline;
+}

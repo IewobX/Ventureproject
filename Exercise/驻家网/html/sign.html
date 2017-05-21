@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="../css/sign.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div class="header clearfix">
+    <div class="comWidth">
+        <div class="logo fl">
+            <a href="index.html"> <img src="../img/logo.png" alt=""></a>
+        </div>
+        <div class="nav fl">
+            <ul>
+                <li><a href="">Check In</a></li>
+                <li><a href="">Enter</a></li>
+                <li><a href="">Say</a></li>
+                <li><a href="">Comment</a></li>
+                <li><a href="">Personal</a></li>
+            </ul>
+        </div>
+        <div class="sign fr">
+            <a href="sign.html">Sign in</a>
+            <span>|</span>
+            <a href="sign.html">Sign up</a>
+        </div>
+    </div>
+</div>
+<div class="cotn_principal">
+    <div class="cont_centrar">
+        <div class="cont_login">
+            <div class="cont_info_log_sign_up">
+                <div class="cont_md_login">
+                    <div class="cont_ba_opcitiy">
+                        <h2>LOGIN</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+                    </div>
+                </div>
+                <div class="col_md_sign_up">
+                    <div class="cont_ba_opcitiy">
+                        <h2>SIGN UP</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cont_back_info">
+                <div class="cont_img_back_grey">
+                    <img src="../img/index_bg.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="cont_forms">
+                <div class="cont_img_back_">
+                    <img src="../img/index_bg.jpg" alt=""/>
+                </div>
+                <div class="cont_form_login">
+                    <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">X</i></a>
+                    <h2>LOGIN</h2>
+                    <input type="text" placeholder="Email"/>
+                    <input type="password" placeholder="Passworld"/>
+                    <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+                </div>
+                <div class="cont_form_sign_up">
+                    <a href="#" onclick="ocultar_login_sign_up()"><i class="material_icons">X</i></a>
+                    <h2>SIGN UP</h2>
+                    <input type="text" placeholder="Email"/>
+                    <input type="text" placeholder="User"/>
+                    <input type="password" placeholder="Password"/>
+                    <input type="password" placeholder="Confirm Password"/>
+                    <button class="btn_sign_up" onClick="cambiar_sign_up()">SIGN UP</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../script/sign.js"></script>
+</body>
+</html>

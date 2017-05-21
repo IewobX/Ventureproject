@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body, ul, ol,li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div, dl, dt, dd, input {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+}
+img{
+    border: none;
+}
+li{
+    list-style: none;
+}
+input, select, textarea{
+    outline: none;
+    border: none;
+    background: none;
+}
+a{
+    text-decoration: none;
+    color: #656565;
+}
+.comWidth{
+    width: 1000px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+
+body{
+    background: url(../img/index_bg.jpg) center top no-repeat;
+}
+.header{
+    background-color: rgba(0,0,0,0.4);
+}
+.logo{
+    padding: 10px 0;
+}
+.nav{
+    margin-left: 15px;
+}
+.nav ul li{
+    float: left;
+
+}
+.nav ul li a{
+    display: inline-block;
+    color: rgba(255,255,255,0.7);
+    margin-top: 36px;
+    margin-left: 5px;
+    height: 40px;
+    line-height:40px;
+    font-size: 1.6em;
+    width: 100px;
+    text-align: center;
+    border: solid 2px rgba(255,255,255,0);
+}
+.nav ul li a:hover{
+    animation-name: identifier;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes identifier{
+    0%{
+        border-radius: 0;
+        border: solid 2px rgba(255,255,255,0);
+    }
+    100%{
+        border-radius: 20px;
+        border: solid 2px rgba(255,255,255,1);
+    }
+}
+
+.sign{
+    color: rgba(255,255,255,0.6);
+    margin-top: 20px;
+}
+.sign a{
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.6);
+    margin: 0 10px;
+}
+.sign a:hover{
+    text-decoration: underline;
+}
