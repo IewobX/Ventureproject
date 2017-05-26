@@ -42,7 +42,7 @@ a{
 }
 
 body{
-    background: url(../img/index_bg.jpg) center top no-repeat;
+    background: url(../img/index_bg.jpg) center top/cover no-repeat;
 }
 .header{
     background-color: rgba(0,0,0,0.4);
